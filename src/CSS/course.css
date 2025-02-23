@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url(https://chennai.vit.ac.in/wp-content/uploads/2021/06/Cyber-Security-Certification-Course-Computer-Science-Certification-Courses.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 90%;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    color: #fff;
+    /* background-color: #fff; */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.card-links a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card-links a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+
+h1 {
+    margin: 0;
+}
+
+h5 {
+    margin-right: 35px;
+}
+
+.container_cardbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Ensures it takes up full viewport height */
+    padding-top: 60px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card__container {
+    background:  transparent/* Semi-transparent background */;
+    backdrop-filter: blur(10px);
+    height: 200px;
+    width: 200px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.card__container h3 {
+    color:#fff;
+}

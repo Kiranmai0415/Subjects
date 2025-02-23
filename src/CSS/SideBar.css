@@ -1,0 +1,64 @@
+/* SideBar.css */
+.sidebar {
+    width: 250px;
+    /* background-color: #f4f4f4; */
+    background: transparent;
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    border: 1px solid #ddd;
+    font-size: 25px;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.sidebar .category {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.sidebar h4 {
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: rgb(239, 245, 245);
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    padding-top: 5px;
+    display: none; 
+}
+
+.sidebar .category:hover ul {
+    display: block; /* Show the submenu on hover */
+    border: 1px solid white;
+}
+
+.sidebar li {
+    margin: 5px 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+    font-style: italic;
+    font-size: medium;
+    backdrop-filter: blur(10px);
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.submenu {
+    padding-left: 15px; /* Indent the submenu items */
+    border-left: 2px solid #ddd;
+}
